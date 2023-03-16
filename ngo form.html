@@ -1,0 +1,141 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ngo form.css">
+    <title>Ngo Detail form</title>
+</head>
+<body>
+    <form>  
+        <div class="container">  
+          <h1 style="text-align: center;"> Fill Ngo details to create Template </h1>  
+        <hr>  
+        <label> <b>NGO Name</b> </label>   
+      <input type="text" name="NGO Name" placeholder= "NGO Name" size="20" required />   
+      <label> <b>Title/Moto</b> </label>   
+      <input type="text" name="Title/Moto" placeholder="Title/Moto" size="40" required />   
+      <label><b>Short Description</b> </label>    
+      <input type="text" name="Short Description" placeholder="Short Description" size="200" required />   
+      
+      <div action="/action_page.php">
+       <p><h4>Upload the png file of your NGO Logo</h4></p>
+       <input type="file" name="logo" id="ilogo">
+       <input type="submit">
+      </div>
+      
+      
+      <label>   
+       <b>Phone :</b>   
+      </label>  
+         
+      <input type="text" name="phone" placeholder="phone no." value="+91" size="5" required>   
+       
+       <label for="email"><b>Email</b></label>  
+       <input type="text" placeholder="Enter Email" name="email" required>  
+        
+
+
+       <label for="division"><b>Join NGO pitch line</b></label><br>
+       <input type="text" placeholder="'HOW WILL YOUR BE USED UPON DONATION'" name="division" id="div" size="150" required>
+
+       <hr>
+       <div action="/action_page.php">
+        <h4>What do we do</h4>
+        <label for="">Describe Here</label><br>
+        <textarea name="description" id="wdwd description" cols="30" rows="10">Write Here</textarea><br>
+        <input type="button" value="Submit"><br><br>
+        <label for="image">Upload Image</label><br>
+        <input type="file" id="d_image"><br>
+        <input type="submit">
+       </div>
+       <hr>
+       
+       <h4>Fill details of founder</h4><br>
+       <h4>Founder details 1</h4><br>
+       <label for="f1n">Name</label>
+       <input type="text" name="" id="f1n" placeholder="Enter Nmae" size="20" required><br>
+       <div action="/action_page.php">
+        <label for="">Description</label><br>
+        <textarea name="description" id="wdwd description" cols="30" rows="10">Write Here</textarea><br>
+        <input type="button" value="Submit"><br><br>
+        <label for="image">Upload Image of founder</label><br>
+        <input type="file" id="f1_image"><br>
+        <input type="submit"><br>
+       </div>
+
+       <h4>Founder details 2</h4><br>
+       <label for="f1n">Name</label>
+       <input type="text" name="" id="f2n" placeholder="Enter Nmae" size="20" required><br>
+       <div action="/action_page.php">
+        <label for="">Description</label><br>
+        <textarea name="description" id="wdwd description" cols="30" rows="10">Write Here</textarea><br>
+        <input type="button" value="Submit"><br><br>
+        <label for="image">Upload Image of founder</label><br>
+        <input type="file" id="f2_image"><br>
+        <input type="submit">
+       </div>
+       <hr>
+       
+
+       <h4>Fill details of Donar</h4><br>
+       <h4>Donar details 1</h4><br>
+       <label for="f1n">Name</label>
+       <input type="text" name="" id="f1n" placeholder="Enter Nmae" size="20" required><br>
+       <label for="amount1">Amount</label>
+       <input type="number" name="" id="da1" placeholder="Enter amount donated by donar" required><br>
+       <div action="/action_page.php">
+        <label for="">Description</label><br>
+        <textarea name="description" id="wdwd description" cols="30" rows="10">Write Here</textarea><br>
+        <input type="button" value="Submit"><br><br>
+        <label for="image">Upload Image of founder</label><br>
+        <input type="file" id="d1_image"><br>
+        <input type="submit"><br>
+       </div>
+
+       <h4>Donar details 2</h4><br>
+       <label for="f1n">Name</label>
+       <input type="text" name="" id="f1n" placeholder="Enter Nmae" size="20" required><br>
+       <label for="amount1">Amount</label>
+       <input type="number" name="" id="da2" placeholder="Enter amount donated by donar" required><br>
+       <div action="/action_page.php">
+        <label for="">Description</label><br>
+        <textarea name="description" id="wdwd description" cols="30" rows="10">Write Here</textarea><br>
+        <input type="button" value="Submit"><br><br>
+        <label for="image">Upload Image of founder</label><br>
+        <input type="file" id="d2_image"><br>
+        <input type="submit">
+       </div>
+
+       
+       <h4>Donar details 3</h4><br>
+       <label for="f1n">Name</label>
+       <input type="text" name="" id="f1n" placeholder="Enter Nmae" size="20" required><br>
+       <label for="amount1">Amount</label>
+       <input type="number" name="" id="da2" placeholder="Enter amount donated by donar" required><br>
+       <div action="/action_page.php">
+        <label for="">Description</label><br>
+        <textarea name="description" id="wdwd description" cols="30" rows="10">Write Here</textarea><br>
+        <input type="button" value="Submit"><br><br>
+        <label for="image">Upload Image of founder</label><br>
+        <input type="file" id="d2_image"><br>
+        <input type="submit">
+       </div>
+       
+       
+       
+
+       
+
+
+
+
+        
+       
+
+          <button type="submit" class="registerbtn">Register</button>    
+      </form>  
+</body>
+    
+</body>
+</html>
